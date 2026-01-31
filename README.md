@@ -7,20 +7,19 @@ Using CUT&RUN, CUT&Tag, and transcriptomic data, this project explores how loss 
 
 ## Biological Background
 
-Multiciliated cells are specialized epithelial cells that generate coordinated ciliary motion to facilitate fluid movement in tissues such as the brain ventricles and respiratory tract. Defects in their formation are associated with severe human diseases, including ciliopathies and hydrocephalus.
+Multiciliated cells project hundreds of motile cilia from their apical surface to promote the movement of gametes or fluids in the mammalian brain, airway, or reproductive organs. Defects in the generation or function of cilia cause several diseases, also known as ciliopathies, which include primary ciliary dyskinesia, mucociliary clearance-associated defects, and infertility. Specifically in the brain, ependymal multiciliated cells play a crucial role in neural development and the maintenance of cerebrospinal fluid circulation in the central nervous system. Abnormal development or dysfunction of these cells can lead to a condition known as hydrocephalus.
 
-GemC1 is a transcriptional activator known to control early steps of multiciliated cell differentiation. However, the chromatin-level mechanisms through which GemC1 cooperates with remodeling complexes such as SWI/SNF (BAF) remain poorly understood.
-
-This project aims to characterize these mechanisms through genome-wide analyses.
+Differentiating multiciliated cells require the sequential action of the Geminin family of transcriptional activators, GemC1 and Mcidas, which regulate the transcription of several target genes encoding proteins necessary for cilia formation and assembly. Moreover, recent evidence suggests a role for the chromatin remodeling complex SWI/SNF in the coordinated action of GemC1 and Mcidas to drive fate decisions and proper differentiation of multiciliate cells. However, the mechanism by which GemC1, Mcidas, and mSWI/SNF remodel chromatin to induce the multiciliated cell fate is poorly understood.
 
 
 ## Methods Overview
 
+To explore the role of GemC1 in remodeling the chromatin and cooperating with mSWI/SNF, the Taraviras lab has used genome-wide approaches to capture the localization of histone post-translational modifications, BAF complexes, chromatin accessibility, and transcriptional output in primary radial glial cells differentiating into multiciliated cells in the presence or absence of GemC1. In this thesis,  several state-of-the-art bioinformatics tools are used to analyze the differential gene expression of radial glial cells that lack GemC1 and identify the regulatory networks that are misregulated upon loss of GemC1. CUT&RUN data analysis is used to understand how chromatin dynamics and SWI/SNF targeting on chromatin change upon differentiation of radial glial cells to multiciliated epithelium and how this dynamic is perturbed upon the loss of GemC1. 
+
 Tools and approaches used include:
 
-- Bash-based sequencing data processing  
-- Peak calling and genomic annotation  
-- Differential analysis  
+- Sequencing data processing  
+- Peak calling and genomic annotation
 - GREAT for gene–region associations  
 - Enrichr for functional enrichment  
 - Gene Set Enrichment Analysis (GSEA)  
@@ -29,8 +28,7 @@ Tools and approaches used include:
 
 ## Author
 
-**Thodoris Daskalopoulos**  
-MSc in Bioinformatics  
+Thodoris Daskalopoulos, MSc in Bioinformatics  
 
 
 ## Academic Use
