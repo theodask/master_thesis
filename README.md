@@ -13,14 +13,6 @@ GemC1 is a transcriptional activator known to control early steps of multiciliat
 
 This project aims to characterize these mechanisms through genome-wide analyses.
 
-## Project Structure
-
-master_thesis/
-│
-├── jupyter_notebook/
-│ ├── CUTnRUN_Brg1_GemC1_analysis.ipynb
-│ └── images/
-
 
 ## Methods Overview
 
