@@ -1,9 +1,10 @@
 ## Overview
 
-This repository contains the bioinformatic analysis performed for my Master's thesis investigating the role of GemC1 in regulating chromatin dynamics and transcriptional programs during the differentiation of multiciliated ependymal cells.
+This repository contains the bioinformatic analysis performed for my Master's thesis in Life Sciences Informatics, University of Patras investigating the role of GemC1 in regulating chromatin dynamics and transcriptional programs during the differentiation of multiciliated ependymal cells.
 
 Using CUT&RUN, CUT&Tag, and transcriptomic data, this project explores how loss of GemC1 reshapes chromatin remodeling, alters Polycomb-mediated repression, and disrupts gene regulatory networks essential for multiciliogenesis.
 
+The full text can be found in the following link: https://nemertes.library.upatras.gr/items/1781a0e5-00d6-480e-abc1-7257d588e0ce
 
 ## Biological Background
 
